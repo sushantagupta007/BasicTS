@@ -24,6 +24,7 @@ function App() {
         <Heading> Hello Children of React Component</Heading>
       </ReactNode>
       <Event eventClick={(e) => handleClick(e)} />
+      {/* TypeScript throw error if don't assing property and value correctly.  */}
       <Style style={{ backgroundColor: "red", border: "1px solid black" }} />
     </div>
   );
