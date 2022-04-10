@@ -4,6 +4,7 @@ import AdvancedProps from "./component/AdvancedProps";
 import ArrayList from "./component/ArrayList";
 import Event from "./component/Event";
 import Heading from "./component/Heading";
+import Hooke from "./component/Hooke";
 import ReactNode from "./component/ReactNode";
 import Style from "./component/Style";
 import Users from "./component/Users";
@@ -26,6 +27,7 @@ function App() {
       <Event eventClick={(e) => handleClick(e)} />
       {/* TypeScript throw error if don't assing property and value correctly.  */}
       <Style style={{ backgroundColor: "red", border: "1px solid black" }} />
+      <Hooke></Hooke>
     </div>
   );
 }

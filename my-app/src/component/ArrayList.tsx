@@ -1,10 +1,6 @@
 import React from "react";
+import { ArrayProp } from "../Types/ArrayList";
 
-type ArrayProp = {
-  names: {
-    name: string;
-  }[];
-};
 const ArrayList = (props: ArrayProp) => {
   const { names } = props;
   return (
