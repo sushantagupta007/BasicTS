@@ -5,6 +5,7 @@ import ArrayList from "./component/ArrayList";
 import Event from "./component/Event";
 import Heading from "./component/Heading";
 import ReactNode from "./component/ReactNode";
+import Style from "./component/Style";
 import Users from "./component/Users";
 
 const nameList = [{ name: "A" }, { name: "B" }, { name: "C" }];
@@ -23,6 +24,7 @@ function App() {
         <Heading> Hello Children of React Component</Heading>
       </ReactNode>
       <Event eventClick={(e) => handleClick(e)} />
+      <Style style={{ backgroundColor: "red", border: "1px solid black" }} />
     </div>
   );
 }
