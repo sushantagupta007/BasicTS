@@ -1,9 +1,6 @@
 import React from "react";
+import UserProps from "../Types/UserProps";
 
-type UserProps = {
-  name: number | string;
-  age?: number;
-};
 const Users = (props: UserProps) => {
   return (
     <div>
